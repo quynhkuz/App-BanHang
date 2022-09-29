@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">APP_BanHang</string>
+    <string name="Home">Trang Chu</string>
+    <string name="GioHang">Gio Hàng</string>
+    <string name="BanhHang">Bán Hàng</string>
+    <string name="XacNhan">Xác Nhận Đơn Hàng</string>
+    <string name="DangNhap">Đăng Nhập</string>
+    <string name="DangXuat">Đăng Xuất</string>
+    <string name="nav_close">Close navigtion drawar</string>
+    <string name="nav_open">Open navigtion drawar</string>
+
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/thongbao"
+        android:title="Thông Báo"
+        android:icon="@drawable/chuong"
+        app:showAsAction="always"/>
+
+    <item
+        android:icon="@drawable/giohang"
+        app:actionLayout="@layout/custom_action_item_layout"
+        android:id="@+id/giohang"
+        android:title="Gio Hàng"
+        app:showAsAction="always"/>
+
+
+
+</menu>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chauthai.swipereveallayout.SwipeRevealLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/SwipeRevealLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:mode="same_level"
+    app:dragEdge="right">
+
+    <LinearLayout
+
+        android:id="@+id/layout_setting"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="95dp"
+            android:layout_height="match_parent"
+            android:backgroundTint="@color/red"
+            android:text="Delete"
+            android:textColor="#FDFDFD" />
+
+    </LinearLayout>
+
+    <!-- Your main layout here -->
+    <LinearLayout
+        android:background="@color/LightCyan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <androidx.cardview.widget.CardView
+            android:layout_marginLeft="5dp"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:cardCornerRadius="20dp"
+            >
+            <ImageView
+                android:id="@+id/anh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/vn"/>
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tensp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thit cho"/>
+
+            <TextView
+                android:id="@+id/masp"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thit cho"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/soluong"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thit cho"/>
+
+            <TextView
+                android:id="@+id/gia"
+                android:textStyle="bold"
+                android:paddingTop="5dp"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="thit cho"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.chauthai.swipereveallayout.SwipeRevealLayout>

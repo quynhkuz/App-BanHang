@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item android:id="@+id/trangchu"
+        android:title="@string/Home"
+
+       />
+    <item android:id="@+id/giohang"
+        android:title="@string/GioHang"
+        />
+
+    <item android:id="@+id/banhang"
+        android:title="@string/BanhHang"
+
+        />
+    <item android:id="@+id/xacnhandon"
+        android:title="@string/XacNhan"
+       />
+
+    <item android:id="@+id/hangmua"
+        android:title="Lịch Sử Mua Hàng"
+        />
+
+    <item android:id="@+id/dangnhap"
+        android:title="@string/DangNhap"
+        />
+
+</menu>
