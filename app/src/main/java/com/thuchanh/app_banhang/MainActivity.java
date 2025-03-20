@@ -354,7 +354,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         edit.putString("anh",anh_user);
         edit.putInt("dangxuat",11);
         edit.commit();
-
     }
 
     public void nexthome()
@@ -375,7 +374,6 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         {
             super.onBackPressed();
         }
-
     }
 
 
@@ -388,12 +386,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                         Manifest.permission.MANAGE_EXTERNAL_STORAGE
                 }, 1
         );
-
-
         Intent it = new Intent(Intent.ACTION_PICK);
         it.setType("image/*");
         star.launch(it);
-
     }
 
     //lay duong dan anh tu tgu muc
